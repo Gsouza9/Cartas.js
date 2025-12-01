@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body{
+    background-color: #9c9c9c;
+    font-family: sans-serif;
+}
+
+button{
+    padding: 20px, 40px;
+    background-color: #ffc400;
+    border: 1px solid #000;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+.carta{
+    width: 250px;
+    height: 350px;
+    background-color: #ffff;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    /*efeito 3D*/
+    box-shadow: rgba(0,0,0. 0.4) 0px 2px 4px;
+
+
+    /* position
+        fixed: fixa o elemento no documento
+        relative: referência para o absolute
+        absolute: fixa o elemento com referência ao relative
+
+        Neste exemplo os elementos absolute vão
+    */
+    position: relative;
+}
+
+.canto{
+    position: absolute;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#supESQ{ 
+    top: 20px;
+    left: 15px;
+}
+
+#infDIR {
+    bottom: 25px;
+    right: 15px;
+    transform: rotate(180deg);
+}
+
+.centro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 6rem;
+}
