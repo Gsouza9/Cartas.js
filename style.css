@@ -32,7 +32,8 @@ button{
     margin-bottom: 50px;
     border-radius: 10px;
     /*efeito 3D*/
-    box-shadow: rgba(0,0,0. 0.4) 0px 2px 4px;
+    box-shadow: rgba(0,0,0, 0.4) 0px 2px 4px;
+
 
 
     /* position
@@ -68,4 +69,14 @@ button{
     justify-content: center;
     height: 100%;
     font-size: 6rem;
+}
+
+/* Troca de cores dos naipes */
+
+.vermelho {
+    color: red !important;
+}
+
+.preto {
+    color: black !important;
 }
