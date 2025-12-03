@@ -18,7 +18,6 @@ body{
 }
 
 button{
-    padding: 20px, 40px;
     background-color: #ffc400;
     border: 1px solid #000;
     border-radius: 10px;
@@ -80,3 +79,4 @@ button{
 .preto {
     color: black !important;
 }
+
